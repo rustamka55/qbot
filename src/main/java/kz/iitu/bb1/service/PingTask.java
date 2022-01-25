@@ -17,7 +17,7 @@ import java.net.URL;
 @Setter
 public class PingTask {
 
-    @Value("pingtask.url")
+    @Value("${pingtask.url}")
     private String url;
 
     @Scheduled(fixedRateString = "${pingtask.period}")
