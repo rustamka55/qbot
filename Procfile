@@ -1,1 +1,1 @@
-web: java -jar build/libs/Bb1Application-0.0.1-SNAPSHOT.jar
+web: java -jar build/libs/bb1-0.0.1-SNAPSHOT.jar
