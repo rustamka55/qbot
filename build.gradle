@@ -8,7 +8,13 @@ group = 'kz.iitu'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
-
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'kz.iitu.bb1.Bb1Application'
+        )
+    }
+}
 
 configurations {
     compileOnly {
